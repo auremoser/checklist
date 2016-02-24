@@ -97,5 +97,28 @@
 
         </div>
     </div>
-   </body>
-   </html>
+            <footer>
+                <div class="container">
+                    <p>
+                        <a href="https://github.com/auremoser/checklist">Edit this page on GitHub</a>
+                    </p>
+                </div>
+            </footer>
+            
+            <!-- Cousous libraries for formating and bootstrap -->
+            <script src="http://couscous.io/bower_components/jquery/dist/jquery.min.js"></script>
+            <script src="http://couscous.io/bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+            <script src="http://couscous.io/bower_components/google-code-prettify/src/prettify.js"></script>
+
+            <script>
+                $(function() {
+                    $("section h1").wrap('<div class="page-header" />');
+                    $("pre").addClass('prettyprint');
+                    prettyPrint();
+                });
+            </script>
+            <!-- End Library Code -->
+
+        <!-- HT to the Cousous project for Markdown to HTML templates and to the Bootstrap Boilerplate template -->
+</body>
+</html>
